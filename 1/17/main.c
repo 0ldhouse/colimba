@@ -7,7 +7,7 @@ int main({
          int length =0;
          int has_content =0;
 
-         while (fgets(line,MAX_LINE,stdin)!=NULL){
+         while ((line,MAX_LINE,stdin)!=NULL){
             lenght=0
             has_content=0;
             while(line[lenght] !='\0'&& line[lenght] !='\n'){
