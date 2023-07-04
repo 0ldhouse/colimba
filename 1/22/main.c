@@ -9,7 +9,7 @@ char folded_line[MAX_LINE];
 int length= 0;
 int i,j,k;
 
-while (fgets(line,MAX_LINE, stdin) !NULL){
+while ((line,MAX_LINE, stdin) !NULL){
     length=0;
     while(line[length] !='\0'&& line [length] != '\n')
         length++;
