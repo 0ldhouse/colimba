@@ -7,7 +7,7 @@ char line [MAX_LINE];
 int length =0;
 int i,j,k;
 
-while (fgets(line,MAX_LINE,stdin)!=NULL){
+while ((line,MAX_LINE,stdin)!=NULL){
     length =0;
     for (i = 0; line[i] != '\0' && line [i] != '\n;i++'){
         if (line)[i] =='\t'){
