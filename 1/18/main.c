@@ -1,26 +1,32 @@
-#include <stdio.h>
-#include <string.h>
+#define MAXLINE 1000  \*maximum input line size*/
 
-#define MAX_LINE 1000
-void reverse(char s[]);
+void reverse(char line[],int length, char rev[)[];
+int getline ( char line [],int maxline);
+
 int main(){
-chr line [MAX_LINE];
-while (fgets(line,MAX_LINE,stdin)!=NULL)}
-reverse (line);
+char line [MAXLINE];
+int lenght;
+
+while ((lenght = gentile (line,MAXLINE))>0){
+    char reverse (line);
 printf("%s",line);
 }
 return 0;
 }
-void reverse (char s[]){
-int length = strlen(s);
+oid reverse (char line[]){
+int getline (char line[], int lim){
 int i, j ;
-char temp;
- for (i=0,j=length-1; i<j;i++,i--){
-    temp=s[i];
-    s[i]=s[j];
-    s[j]=temp;
+
+}
+ }
+return i
+
+}
+for (i=0,j=length-1; i<j;i++,i--){
+    rev[lenght -i]= line [i-1];
     }
 
  }
+
 
 
