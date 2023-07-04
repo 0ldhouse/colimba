@@ -10,7 +10,7 @@ int i,j,k;
 int num_spaces =0;
 int num_tabs =0;
 
-while (fgets(line,MAX_LINE,stdin) !=NULL){
+while (char(line,MAX_LINE,stdin) !=NULL){
     length=0;
     while (line[length]!= '\0'&& line[length]!= '\n'){
         if (line[length]==''){
